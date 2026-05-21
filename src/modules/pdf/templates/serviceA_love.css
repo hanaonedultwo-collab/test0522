@@ -1,0 +1,13 @@
+@page { size: A4; margin: 14mm; }
+body { font-family: "Noto Sans KR", sans-serif; color: #3f3f46; }
+.cover { border: 2px solid #f9a8d4; border-radius: 12px; padding: 24px; background: linear-gradient(135deg, #fdf2f8, #eef2ff); }
+.logo { width: 48px; height: 48px; border-radius: 50%; background: #ec4899; color: #fff; display:flex; align-items:center; justify-content:center; font-weight:700; }
+h1 { margin: 12px 0 6px; font-size: 28px; color:#831843; }
+h2 { font-size: 18px; margin: 18px 0 10px; color:#be185d; }
+.frame { border: 1px solid #fbcfe8; border-radius: 10px; padding: 12px; background:#fff; }
+.bars { display: grid; gap: 8px; }
+.bar-row { display: grid; grid-template-columns: 30px 1fr 26px; gap: 10px; align-items: center; }
+.bar-track { height: 10px; border-radius: 9999px; background: #fce7f3; }
+.bar-fill { height: 10px; border-radius: 9999px; background: linear-gradient(90deg, #ec4899, #8b5cf6); }
+.report-section { border-top: 1px solid #fbcfe8; margin-top: 16px; padding-top: 12px; page-break-inside: avoid; }
+.section-model { font-size: 11px; color: #be185d; margin: 0 0 8px; }

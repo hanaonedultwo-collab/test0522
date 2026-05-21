@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <style>{{styles}}</style>
+  </head>
+  <body class="theme-love">
+    <header class="cover">
+      <div class="logo">{{logoText}}</div>
+      <h1>{{customerName}} 님 연애운 리포트</h1>
+      <p>{{serviceName}} | {{modelName}} | {{createdDate}}</p>
+    </header>
+    <section class="intro">
+      <div class="frame">
+        <h2>사주 원국</h2>
+        <p>{{yearPillar}} / {{monthPillar}} / {{dayPillar}} / {{hourPillar}}</p>
+      </div>
+      <h2>오행 균형</h2>
+      <div class="bars">{{fiveElementBars}}</div>
+    </section>
+    {{analysisSections}}
+  </body>
+</html>

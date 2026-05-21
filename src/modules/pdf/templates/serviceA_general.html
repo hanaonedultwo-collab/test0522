@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <style>{{styles}}</style>
+  </head>
+  <body class="theme-a">
+    <header class="cover">
+      <div class="logo">{{logoText}}</div>
+      <h1>{{customerName}} 님 종합운 리포트</h1>
+      <p>{{serviceName}} | {{modelName}} | {{createdDate}}</p>
+    </header>
+
+    <section class="intro">
+      <h2>만세력 표</h2>
+      <table class="chart-table">
+        <tr><th>년주</th><td>{{yearPillar}}</td></tr>
+        <tr><th>월주</th><td>{{monthPillar}}</td></tr>
+        <tr><th>일주</th><td>{{dayPillar}}</td></tr>
+        <tr><th>시주</th><td>{{hourPillar}}</td></tr>
+      </table>
+      <h2>오행 그래프</h2>
+      <div class="bars">{{fiveElementBars}}</div>
+    </section>
+
+    {{analysisSections}}
+  </body>
+</html>

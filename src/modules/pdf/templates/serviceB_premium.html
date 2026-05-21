@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <style>{{styles}}</style>
+  </head>
+  <body class="theme-premium">
+    <header class="cover">
+      <div class="logo">{{logoText}}</div>
+      <div>
+        <p class="badge">PREMIUM REPORT</p>
+        <h1>{{customerName}} 님 프리미엄 리포트</h1>
+        <p>{{serviceName}} | {{productName}} | {{createdDate}}</p>
+      </div>
+    </header>
+
+    <section class="intro-grid">
+      <article>
+        <h2>만세력 원국</h2>
+        <ul>
+          <li>년주: {{yearPillar}}</li>
+          <li>월주: {{monthPillar}}</li>
+          <li>일주: {{dayPillar}}</li>
+          <li>시주: {{hourPillar}}</li>
+        </ul>
+      </article>
+      <article>
+        <h2>오행 지표</h2>
+        <div class="bars">{{fiveElementBars}}</div>
+      </article>
+    </section>
+
+    {{analysisSections}}
+  </body>
+</html>

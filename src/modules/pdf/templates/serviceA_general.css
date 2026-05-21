@@ -1,0 +1,16 @@
+@page { size: A4; margin: 14mm; }
+body { font-family: "Noto Sans KR", "Malgun Gothic", sans-serif; color: #1f2937; }
+.cover { border: 2px solid #d8b4fe; border-radius: 12px; padding: 24px; background: #faf5ff; }
+.logo { width: 48px; height: 48px; border-radius: 12px; background: #7c3aed; color: #fff; display:flex; align-items:center; justify-content:center; font-weight:700; }
+h1 { margin: 12px 0 6px; font-size: 28px; }
+h2 { font-size: 18px; margin: 18px 0 10px; color: #4c1d95; }
+.intro { margin-top: 16px; }
+.chart-table { width: 100%; border-collapse: collapse; }
+.chart-table th, .chart-table td { border: 1px solid #e9d5ff; padding: 8px; }
+.chart-table th { width: 90px; background: #f3e8ff; }
+.bars { display: grid; gap: 8px; }
+.bar-row { display: grid; grid-template-columns: 30px 1fr 26px; gap: 10px; align-items: center; }
+.bar-track { height: 10px; border-radius: 9999px; background: #ede9fe; }
+.bar-fill { height: 10px; border-radius: 9999px; background: linear-gradient(90deg, #8b5cf6, #6366f1); }
+.report-section { border-top: 1px solid #ddd6fe; margin-top: 16px; padding-top: 12px; page-break-inside: avoid; }
+.section-model { font-size: 11px; color: #7c3aed; margin: 0 0 8px; }
